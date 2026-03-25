@@ -10,5 +10,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    path:/var/nfs/general
+    path: /var/nfs/general
     server: 172.31.12.241
