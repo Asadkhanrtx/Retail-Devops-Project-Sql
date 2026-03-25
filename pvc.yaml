@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-pvc
   namespace: gateway-ns
-  spec:
+spec:
     accessModes:
       - ReadWriteOnce
     resources:
