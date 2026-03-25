@@ -6,6 +6,7 @@ metadata:
 spec:
     accessModes:
       - ReadWriteOnce
+    storageClassName: retail-sc
     resources:
       requests:
         storage: 2Gi
